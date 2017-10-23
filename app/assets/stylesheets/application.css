@@ -13,3 +13,58 @@
  *= require_tree .
  *= require_self
  */
+
+ body, html, #root{
+   display: flex;
+     flex-basis: 100%;
+     flex-grow: 1;
+     min-width: 100%;
+     min-height: 100%;
+     font-size: 16px;
+     line-height: 1.45;
+     font-family: "Graphik Meetup",helvetica,arial,sans-serif;
+     font-weight: 400;
+     margin: 0;
+     padding: 0;
+     text-rendering: optimizeLegibility;
+     -moz-font-feature-settings: "liga","kern";
+     -moz-font-feature-settings: "liga=1, kern=1";
+     -ms-font-feature-settings: "liga","kern";
+     -o-font-feature-settings: "liga","kern";
+     -webkit-font-feature-settings: "liga","kern";
+     font-feature-settings: "liga","kern";
+ }
+
+
+
+ .maxin{
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+ }
+
+ .mainbody{
+   display: flex;
+   flex-direction: column;
+   min-height: 80%;
+   max-height: 80%;
+ }
+
+.header{
+  display: flex;
+  flex-direction: row;
+  min-height: 10%;
+  max-height: 10%;
+  background-color: #0f1721;
+  color: white;
+
+}
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  min-height: 10%;
+  max-height: 10%;
+  background-color: #0f1721;
+  width: 100%;
+}
